@@ -9,7 +9,7 @@ return {
       },
       config = function()
         vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>', {})
-        vim.keymap.set('n', 'o', ':Neotree focus<CR>', { desc = 'Neotree focus' })
+        vim.keymap.set('n', '<C-t>', ':Neotree focus<CR>', { desc = 'Neotree focus' })
       end
     },
 }
